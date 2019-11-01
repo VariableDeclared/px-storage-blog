@@ -19,7 +19,7 @@ metadata:
   labels:
     app: wordpress
   annotations:
-    volume.beta.kubernetes.io/storage-class: fast
+    volume.beta.kubernetes.io/storage-class: portworx-sc
 spec:
   accessModes:
     - ReadWriteOnce

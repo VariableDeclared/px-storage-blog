@@ -17,7 +17,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: mysql-pv-claim
   annotations:
-    volume.beta.kubernetes.io/storage-class: fast
+    volume.beta.kubernetes.io/storage-class: portworx-sc
   labels:
     app: wordpress
 spec:
